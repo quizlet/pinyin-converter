@@ -1,4 +1,4 @@
-pinyin-converter
+Pinyin Converter
 ================
 
 Javascript object which adds accents to pinyin. PinyinConverter.convert('ni3hao3') => nǐhǎo
@@ -6,7 +6,7 @@ Javascript object which adds accents to pinyin. PinyinConverter.convert('ni3hao3
 Getting Started
 ===============
 
-Just add the pinyin_converter.js script to your site.
+Just add the pinyin_converter.js script to your site. There are no external dependencies.
 
 Usage
 =====
