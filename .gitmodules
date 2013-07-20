@@ -1,0 +1,6 @@
+[submodule "vendor/mocha"]
+	path = vendor/mocha
+	url = git@github.com:visionmedia/mocha.git
+[submodule "vendor/chai"]
+	path = vendor/chai
+	url = git@github.com:chaijs/chai.git
