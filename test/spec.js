@@ -14,6 +14,11 @@
         output = PinyinConverter.convert("hi7 there5 this is ni3hao3ma ok then");
         return output.should.equal("hi7 there this is nǐhǎoma ok then");
       });
+      it("should not convert pinyin if it's not valid", function() {
+        var output;
+        output = PinyinConverter.convert("ki3");
+        return output.should.equal("ki3");
+      });
       correctInputAndOutput = {
         "bo1": "bō",
         "bo2": "bó",
