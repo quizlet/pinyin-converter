@@ -1,7 +1,7 @@
 Pinyin Converter
 ================
 
-Javascript object which adds accents to pinyin. `PinyinConverter.convert('ni3hao3') // returns 'nǐhǎo'`
+A simple Javascript plugin to convert pinyin with numbers to tone marks. `PinyinConverter.convert('ni3hao3') // returns 'nǐhǎo'`
 
 Getting Started
 ===============
