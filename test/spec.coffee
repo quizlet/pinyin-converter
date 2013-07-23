@@ -4,6 +4,13 @@ should = chai.should()
 describe 'PinyinConverter', ->
 	describe '#convert()', ->
 
+		it "should handle er things correctly", ->
+			output = PinyinConverter.convert("yi2huir4")
+			output.should.equal("yíhuìr")
+
+			output = PinyinConverter.convert("yi2huiri4")
+			output.should.equal("yíhuirì")
+
 		it "should directly pass through things it doesn't know how to convert", ->
 			output = PinyinConverter.convert("hi7 there5 this is ni3hao3ma ok then")
 			output.should.equal("hi7 there this is nǐhǎoma ok then")

@@ -9,6 +9,13 @@
   describe('PinyinConverter', function() {
     return describe('#convert()', function() {
       var correctInputAndOutput, expectedOutput, input, _results;
+      it("should handle er things correctly", function() {
+        var output;
+        output = PinyinConverter.convert("yi2huir4");
+        output.should.equal("yíhuìr");
+        output = PinyinConverter.convert("yi2huiri4");
+        return output.should.equal("yíhuirì");
+      });
       it("should directly pass through things it doesn't know how to convert", function() {
         var output;
         output = PinyinConverter.convert("hi7 there5 this is ni3hao3ma ok then");
