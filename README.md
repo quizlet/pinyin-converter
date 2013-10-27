@@ -1,7 +1,11 @@
 Pinyin Converter
 ================
 
-A simple Javascript plugin to convert pinyin with numbers to tone marks. `PinyinConverter.convert('ni3hao3') // returns 'nǐhǎo'`
+A simple Javascript plugin to convert pinyin with numbers to tone marks. 
+`PinyinConverter.convert('ni3hao3') // returns 'nǐhǎo'`
+
+This plugin powers the Pinyin conversion on Quizlet.com and was conceived during one of our 
+[hacknights](http://quizlet.com/inside-quizlet/hacknight-better-mandarin-support-in-quizlet)
 
 Getting Started
 ===============
