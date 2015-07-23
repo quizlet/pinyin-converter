@@ -1,0 +1,16 @@
+{
+	"name": "pinyin-converter",
+	"version": "0.1",
+	"description": "converts numbered pinyin to accented pinyin",
+	"main": "pinyin_converter.js",
+	"repositiory": {
+		"type": "git",
+		"url": "https://github.com/quizlet/pinyin-converter"
+	},
+	"author": "Quizlet",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/quizlet/pinyin-converter/issues"
+	},
+	"homepage": "https://github.com/quizlet/pinyin-converter"
+}
