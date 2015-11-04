@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"description": "converts numbered pinyin to accented pinyin",
 	"main": "pinyin_converter.js",
-	"repositiory": {
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/quizlet/pinyin-converter"
 	},
