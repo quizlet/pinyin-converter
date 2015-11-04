@@ -1,6 +1,6 @@
 {
 	"name": "pinyin-converter",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "converts numbered pinyin to accented pinyin",
 	"main": "pinyin_converter.js",
 	"repository": {
